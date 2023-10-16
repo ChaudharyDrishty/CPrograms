@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int a,b;float c,d;
+   printf("Enter two integers and two decimal numbers:\n");
+scanf("%d%d%f%f",&a,&b,&c,&d);
+printf("%d\n%d\n%f\n%f\n",a,b,c,d);
+    return 0;
+}
